@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.column {
+  flex-basis:100%;
+  flex-flow: 1 1 100%;
+}
+
+.clickbox {
+  border: 1px solid;
+}
