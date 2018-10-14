@@ -33,6 +33,7 @@ Developer @GA in LDN
 .column {
   flex-basis:100%;
   flex-flow: 1 1 100%;
+  float: left;
 }
 
 
@@ -53,22 +54,23 @@ h1 {
 }
 
 nav {
-  color: #fff;
-  align-items: right;
+  text-align: right;
+  font-family: sans-serif;
 }
 
 ul {
   list-style: none;
 }
 
-nav ul {
+nav a {
   color: #fff;
+  text-decoration: none;
 }
 
-
-nav ul .row #menu {
-  float: left;
+nav a #extrabold {
+  font-style: oblique;
 }
+
 
 /******************************************
 /* MAIN
