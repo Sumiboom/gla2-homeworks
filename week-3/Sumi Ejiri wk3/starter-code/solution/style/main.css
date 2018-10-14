@@ -66,9 +66,19 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
 nav a {
   color: #fff;
-  text-decoration: none;
+  font-size: 18px;
+}
+
+nav .column {
+  width: 50px;
+}
+.row #menu {
+  flex-basis: 20px;
 }
 
 #extrabold {
@@ -101,22 +111,60 @@ del {
 
 /* MEET YOUR MATCH*/
 
+aside .column {
+  background: rgba(255, 255, 255, 0.2)
+  border: 1px solid black;
+}
 
-aside {
+#Meet {
+  background: url(../images/coworking.jpg) no-repeat center top;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
 
+#layer {
+  background: rgba(255,255,255,0.2);
+  /*top: 0;
+  left: 0;*/
+  width: 50%;
+  height: 100%;
+  flex-direction: row-reverse;
 }
 
 .clickbox {
   border: 1px solid;
   background-color: yellow;
   padding: 0 20px;
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+  border-radius: 3px;
+  border: 0;
 }
 
 
 /* FURTHER OPTIONS*/
 
 section {
+  height: 350px;
+  text-align: justify;
+  padding: 30, 10, 50, 10;
+  column-rule-style: solid;
+  column-rule-color: black;
+  column-rule-width: 2px;
+}
+
+section p {
   font-family: sans-serif;
+  text-align: left;
+  margin-right: 20px;
+  line-height: 30px;
+}
+
+#section {
+  background: rgba(128,128,128, 0.5);
+  box-shadow: 0 0 3 0;
+  color: #000;
 }
 
 /*FOOTER*/
@@ -132,18 +180,3 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-aside .column #meet {
-  background: rgba(255, 255, 255, 0.2)
-  border: 1px solid black;
-}
-
-
-
-#Meet {
-  background: url(../images/coworking.jpg) no-repeat center top;
-  background-size: cover;
-  background-position: center;
-  height: 700px;
-}
