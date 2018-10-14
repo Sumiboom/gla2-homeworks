@@ -18,6 +18,10 @@ Developer @GA in LDN
      box-sizing: border-box; /* IE */
 }
 
+body {
+  font-family: 'Merriweather', serif;
+}
+
 /* Flexbox hack */
 
 .box {
@@ -67,8 +71,9 @@ nav a {
   text-decoration: none;
 }
 
-nav a #extrabold {
-  font-style: oblique;
+#extrabold {
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
 }
 
 
@@ -85,7 +90,7 @@ blockquote {
 }
 
 del {
-  color: rgba(0,0,0,0.4);
+  color: rgb(0,0,0,0.4);
 }
 
 #quote {
@@ -95,7 +100,6 @@ del {
 
 
 /* MEET YOUR MATCH*/
-
 
 
 aside {
@@ -111,12 +115,17 @@ aside {
 
 /* FURTHER OPTIONS*/
 
+section {
+  font-family: sans-serif;
+}
+
 /*FOOTER*/
 
 footer {
   background: #000;
   padding: 10px;
   color: #fff;
+  font-family: sans-serif;
 }
 
 
