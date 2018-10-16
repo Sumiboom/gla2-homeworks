@@ -9,7 +9,7 @@ Developer @GA in LDN
 /******************************************
 /* SETUP
 /*******************************************/
-
+/* colors - LIST THESES HERE /*
 
 /* Box Model Hack */
 * {
@@ -31,13 +31,13 @@ body {
 .row {
   display: flex;
   flex-direction: row;
+  flex: 1 1 100%;
   flex-wrap: nowrap;
 }
 
 .column {
   flex-basis:100%;
   flex-flow: 1 1 100%;
-  float: left;
 }
 
 
@@ -104,7 +104,7 @@ del {
 }
 
 span {
-  text-decoration: yellow underline;
+  border-bottom: 3px solid yellow;
 }
 
 #quote {
@@ -120,20 +120,25 @@ aside .column {
   border: 1px solid black;
 }
 
-#Meet {
+.meet {
   background: url(../images/coworking.jpg) no-repeat center top;
   background-size: cover;
   background-position: center;
   height: 700px;
+  justify-content: flex-end;
 }
 
-#layer {
-  background: rgba(255,255,255,0.4);
-  width: 50%;
-  height: 90%;
-  flex-direction: row-reverse;
-  line-height: 30px;
-}
+.layer {
+   font-family: 'Merriweather', serif;
+   border: 1px solid black;
+   background-color: rgb(255, 250, 250, 0.4);
+   max-width: 33%
+   padding: 20px;
+   height: 50%;
+   text-align: center;
+   margin: 20px;
+   line-height: 20px;
+  }
 
 .clickbox {
   border: 1px solid;
